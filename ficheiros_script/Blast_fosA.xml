@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_10115</BlastOutput_query-ID>
+  <BlastOutput_query-def>NC_002516.2 Pseudomonas aeruginosa PAO1, complete genome</BlastOutput_query-def>
+  <BlastOutput_query-len>408</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_10115</Iteration_query-ID>
+  <Iteration_query-def>NC_002516.2 Pseudomonas aeruginosa PAO1, complete genome</Iteration_query-def>
+  <Iteration_query-len>408</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|2110971268|gb|CP084484.1|</Hit_id>
+  <Hit_def>Pseudomonas sp. PS1(2021) chromosome, complete genome</Hit_def>
+  <Hit_accession>CP084484</Hit_accession>
+  <Hit_len>7751039</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>732.552</Hsp_bit-score>
+      <Hsp_score>811</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>3427497</Hsp_hit-from>
+      <Hsp_hit-to>3427090</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>407</Hsp_identity>
+      <Hsp_positive>407</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>408</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTGCCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGGCCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCGGCGTGCCGGCAAGCGCCCTATGCGGGAATGCGTTTCGCCGACTAG</Hsp_qseq>
+      <Hsp_hseq>ATGCTCACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTGCCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGGCCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCGGCGTGCCGGCAAGCGCCCTATGCGGGAATGCGTTTCGCCGACTAG</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1854497669|gb|CP054572.1|</Hit_id>
+  <Hit_def>Pseudomonas sp. FDAARGOS_761 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP054572</Hit_accession>
+  <Hit_len>6384852</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>728.044</Hsp_bit-score>
+      <Hsp_score>806</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>1292949</Hsp_hit-from>
+      <Hsp_hit-to>1293356</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>406</Hsp_identity>
+      <Hsp_positive>406</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>408</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTGCCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGGCCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCGGCGTGCCGGCAAGCGCCCTATGCGGGAATGCGTTTCGCCGACTAG</Hsp_qseq>
+      <Hsp_hseq>ATGCTCACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGATCTGCCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGGCCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCGGCGTGCCGGCAAGCGCCCTATGCGGGAATGCGTTTCGCCGACTAG</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1314818050|gb|CP025229.1|</Hit_id>
+  <Hit_def>Pseudomonas sp. AK6U chromosome, complete genome</Hit_def>
+  <Hit_accession>CP025229</Hit_accession>
+  <Hit_len>6909530</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>728.044</Hsp_bit-score>
+      <Hsp_score>806</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>251388</Hsp_hit-from>
+      <Hsp_hit-to>251795</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>406</Hsp_identity>
+      <Hsp_positive>406</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>408</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTGCCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGGCCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCGGCGTGCCGGCAAGCGCCCTATGCGGGAATGCGTTTCGCCGACTAG</Hsp_qseq>
+      <Hsp_hseq>ATGCTCACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTGCCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGGCCGCGGACTACACGCACTATGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCGGCGTGCCGGCAAGCGCCCTATGCGGGAATGCGTTTCGCCGACTAG</Hsp_hseq>
+      <Hsp_midline>||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|49077359|gb|AY657394.1|</Hit_id>
+  <Hit_def>Synthetic construct Peudomonas aeruginosa clone FLH043108.01F PA1129 gene, partial cds</Hit_def>
+  <Hit_accession>AY657394</Hit_accession>
+  <Hit_len>408</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>727.142</Hsp_bit-score>
+      <Hsp_score>805</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>405</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>404</Hsp_identity>
+      <Hsp_positive>404</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>405</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTGCCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGGCCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCGGCGTGCCGGCAAGCGCCCTATGCGGGAATGCGTTTCGCCGAC</Hsp_qseq>
+      <Hsp_hseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTGCCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGGCCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCGGCGTGCCGGCAAGCGCCCTATGCGGGAATGCGTTTCGTCGAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1539782545|emb|LR134300.1|</Hit_id>
+  <Hit_def>Pseudomonas fluorescens strain NCTC10783 genome assembly, chromosome: 1</Hit_def>
+  <Hit_accession>LR134300</Hit_accession>
+  <Hit_len>6866429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>710.01</Hsp_bit-score>
+      <Hsp_score>786</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>408</Hsp_query-to>
+      <Hsp_hit-from>3315804</Hsp_hit-from>
+      <Hsp_hit-to>3315397</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>402</Hsp_identity>
+      <Hsp_positive>402</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>408</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTGCCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGGCCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCGGCGTGCCGGCAAGCGCCCTATGCGGGAATGCGTTTCGCCGACTAG</Hsp_qseq>
+      <Hsp_hseq>ATGCTCACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTGCCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAGGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCTCTGTGGCTGTGCCTGTCCCGGGAGCCGCAATGCGGCGGGCCGGCCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGTAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCGGCGTGCCGGCAAGCGCCCTATGCGGGAATGCGTTTCGCCGACTAG</Hsp_hseq>
+      <Hsp_midline>||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| | ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|758845968|gb|CP010892.1|</Hit_id>
+  <Hit_def>Pseudomonas sp. MRSN12121, complete genome</Hit_def>
+  <Hit_accession>CP010892</Hit_accession>
+  <Hit_len>6929263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.134</Hsp_bit-score>
+      <Hsp_score>266</Hsp_score>
+      <Hsp_evalue>5.99219e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>395</Hsp_query-to>
+      <Hsp_hit-from>1537150</Hsp_hit-from>
+      <Hsp_hit-to>1537547</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>297</Hsp_identity>
+      <Hsp_positive>297</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>401</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGGCCG---CGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCG-GCGTGCCGGCAAGCGCCCTATGCGGGAATGCG</Hsp_qseq>
+      <Hsp_hseq>ATGCTCACCGGCCTCAACCACCTGACCCTCGCCGTCACCGACCTGGACCG--CAGCCTGGGGTTCTATCACGACCTGCTGGGCCTGCGCCTGGACGCCCGCTGGGACGGCGGCGCCTATCTGTCGCTGCCGGGCCTGTGGTTGTGCCTGTCGCTGGACCCGTCGCGCCGCCCGGCGGAAGTGCCGGACTATACCCATTACGCCTTCAGCATCGAGGCCGGGGATTTCGTGGCATTCGTCCAGCGCCTGCGCGCCGCGGGCGTGCGGGAATGGCGCGACAACCGCAGCGAAGGCGCCTCGTTCTACTTTCTCGATCCGGACGGGCATCAGCTGGAGGCCCATGTCGGCGACCTG-GCGTCGCGTTTGCGCGCCTGCCGGCGGCAGCCGTATGCCGGAATGCG</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||| ||||||||||| || ||| ||||||||  |||  |||| | |  ||||| | ||| || || ||| | |||||||| || |||||||||   |||||||||||    |||      |||||| |||||||||| | ||| |||  |  | ||  | |||  |   ||||||| || || ||||||||| ||||||  |||| ||||||||     |||| |  ||  ||||||||    |||||||| ||||||    | ||||||||||| ||||  ||||||||||| ||||| |||||||| ||||  ||||||||||| |||||||||||| ||  |  | | ||| || |||||||    ||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|787852299|gb|CP011110.1|</Hit_id>
+  <Hit_def>Pseudomonas chlororaphis strain PCL1606, complete genome</Hit_def>
+  <Hit_accession>CP011110</Hit_accession>
+  <Hit_len>6646309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.626</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>2.54794e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>395</Hsp_query-to>
+      <Hsp_hit-from>5140304</Hsp_hit-from>
+      <Hsp_hit-to>5139907</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>296</Hsp_identity>
+      <Hsp_positive>296</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>401</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGGCCG---CGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCG-GCGTGCCGGCAAGCGCCCTATGCGGGAATGCG</Hsp_qseq>
+      <Hsp_hseq>ATGCTCACCGGCCTCAACCACCTAACCCTCGCCGTCACCGACCTGGACCG--CAGCCTGGGGTTCTATCACGACCTGCTGGGCCTGCGCCTGGACGCCCGCTGGGACGGCGGCGCCTATCTGTCGCTGCCGGGCCTGTGGTTGTGCCTGTCGCTGGACCCGTCGCGCCGCCCGGCGGAAGTGCCGGACTATACCCATTACGCCTTCAGCATCGAGGCCGGGGATTTCGTGGCATTCGTCCAGCGCCTGCGCGCCGCGGGCGTGCGGGAGTGGCGCGACAACCGCAGCGAAGGCGCCTCGTTCTACTTTCTCGACCCGGACGGGCATCAGCTGGAGGCCCATGTCGGCGACCTG-GCGTCGCGTTTGCGCGCCTGCCGGCGGCAGCCGTATGCCGGAATGCG</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||| ||||| ||||| || ||| ||||||||  |||  |||| | |  ||||| | ||| || || ||| | |||||||| || |||||||||   |||||||||||    |||      |||||| |||||||||| | ||| |||  |  | ||  | |||  |   ||||||| || || ||||||||| ||||||  |||| ||||||||     |||| |  ||  ||||||||    |||||||| || |||    | ||||||||||| ||||  ||||||||||| |||||||||||||| ||||  ||||||||||| |||||||||||| ||  |  | | ||| || |||||||    ||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|2147585324|gb|CP060046.1|</Hit_id>
+  <Hit_def>Chromobacterium vaccinii strain GIMC1602:ChrSima_v chromosome</Hit_def>
+  <Hit_accession>CP060046</Hit_accession>
+  <Hit_len>5278675</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.626</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>2.54794e-57</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>199001</Hsp_hit-from>
+      <Hsp_hit-to>199363</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>279</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>372</Hsp_align-len>
+      <Hsp_qseq>GCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGGCCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCG-CCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCGGCGTGCCG</Hsp_qseq>
+      <Hsp_hseq>GCTGAACGGACTCAACCATCTGACCCTGGCGGTCGCCGACCTCGACCGGGC--CTGGGACTTCTACCACGGCCTGCTCGGCGCCCGTCCGCACGCGCGCTGGGCCGGCGGCGCCTACCTGAGCCTGGGCGAACTGTGGCTGTGCCTGTCGCTGGACGCGCCCGAAG-----CCGGCCGCGG-CTACACCCATTACGCGTTCGACATCGCCGCCGCAGATTTC-CCGGCCTGGACCGAGCGGCTCAGCGCGGCCGGCGTCGGCGTGTGGAAAGACAACCGCAGCGAGGGCGACTCGTTTTACTTCCTGGACCCGGACGGCCACCGGCTGGAGCTGCACGTCGGCTCGCTGCAAAGCCGCCTCGCCGCCTGCCG</Hsp_hseq>
+      <Hsp_midline>||| | ||| ||||| || |||||||||||||||||||||||   |||| |  |   | |||||||| ||  || ||||||   || | | | |||||||||| |   |||||||| ||    |||||    ||||||||||||||||| | |||  |||   | |     |||||||||| |||||| || ||||| |||| |||||||||||| |||||| || || | | ||| || |||  |||||   |||||  |||  |||||  | ||||||||||||||||| ||||| |||||||| |||||||||||||| || ||||||   |||||||||   ||||  ||||| ||||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|2147580092|gb|CP060044.1|</Hit_id>
+  <Hit_def>Chromobacterium vaccinii strain GIMC1601:ChrSima_w chromosome</Hit_def>
+  <Hit_accession>CP060044</Hit_accession>
+  <Hit_len>5273834</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.626</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>2.54794e-57</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>199001</Hsp_hit-from>
+      <Hsp_hit-to>199363</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>279</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>372</Hsp_align-len>
+      <Hsp_qseq>GCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGGCCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCG-CCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCGGCGTGCCG</Hsp_qseq>
+      <Hsp_hseq>GCTGAACGGACTCAACCATCTGACCCTGGCGGTCGCCGACCTCGACCGGGC--CTGGGACTTCTACCACGGCCTGCTCGGCGCCCGTCCGCACGCGCGCTGGGCCGGCGGCGCCTACCTGAGCCTGGGCGAACTGTGGCTGTGCCTGTCGCTGGACGCGCCCGAAG-----CCGGCCGCGG-CTACACCCATTACGCGTTCGACATCGCCGCCGCAGATTTC-CCGGCCTGGACCGAGCGGCTCAGCGCGGCCGGCGTCGGCGTGTGGAAAGACAACCGCAGCGAGGGCGACTCGTTTTACTTCCTGGACCCGGACGGCCACCGGCTGGAGCTGCACGTCGGCTCGCTGCAAAGCCGCCTCGCCGCCTGCCG</Hsp_hseq>
+      <Hsp_midline>||| | ||| ||||| || |||||||||||||||||||||||   |||| |  |   | |||||||| ||  || ||||||   || | | | |||||||||| |   |||||||| ||    |||||    ||||||||||||||||| | |||  |||   | |     |||||||||| |||||| || ||||| |||| |||||||||||| |||||| || || | | ||| || |||  |||||   |||||  |||  |||||  | ||||||||||||||||| ||||| |||||||| |||||||||||||| || ||||||   |||||||||   ||||  ||||| ||||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1092985314|gb|CP017707.1|</Hit_id>
+  <Hit_def>Chromobacterium vaccinii strain 21-1, complete genome</Hit_def>
+  <Hit_accession>CP017707</Hit_accession>
+  <Hit_len>5041230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>232.118</Hsp_bit-score>
+      <Hsp_score>256</Hsp_score>
+      <Hsp_evalue>3.10403e-56</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>3152480</Hsp_hit-from>
+      <Hsp_hit-to>3152118</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>278</Hsp_identity>
+      <Hsp_positive>278</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>372</Hsp_align-len>
+      <Hsp_qseq>GCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGGCCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCG-CCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCGGCGTGCCG</Hsp_qseq>
+      <Hsp_hseq>GCTGAACGGACTCAACCATCTGACCCTGGCGGTCGCCGACCTCGACCGGGC--CTGGGACTTCTACCACGGCCTGCTCGGCGCCCGTCCGCACGCGCGCTGGGCCGGCGGCGCCTACCTGAGCCTGGGCGAACTGTGGCTGTGCCTGTCGCTGGATGCGCCCGAAG-----CCGGCCGCGG-CTACACCCATTACGCGTTCGACATCGCCGCCGCAGATTTC-CCGGCCTGGACCGAGCGGCTCAGCGCGGCCGGCGTCGGCGTGTGGAAAGACAACCGCAGCGAGGGCGACTCGTTTTACTTCCTGGACCCGGACAGCCACCGGCTGGAGCTGCACGTCGGCTCGCTGCAAAGCCGCCTCGCCGCCTGCCG</Hsp_hseq>
+      <Hsp_midline>||| | ||| ||||| || |||||||||||||||||||||||   |||| |  |   | |||||||| ||  || ||||||   || | | | |||||||||| |   |||||||| ||    |||||    ||||||||||||||||| | |||  |||   | |     |||||||||| |||||| || ||||| |||| |||||||||||| |||||| || || | | ||| || |||  |||||   |||||  |||  |||||  | ||||||||||||||||| ||||| |||||||| ||||||||| |||| || ||||||   |||||||||   ||||  ||||| ||||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1314848219|gb|CP025261.1|</Hit_id>
+  <Hit_def>Pseudomonas sp. 09C 129 chromosome</Hit_def>
+  <Hit_accession>CP025261</Hit_accession>
+  <Hit_len>6897667</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>227.609</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>1.31987e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>2018473</Hsp_hit-from>
+      <Hsp_hit-to>2018868</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>296</Hsp_identity>
+      <Hsp_positive>296</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>400</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCG-GGCCG--GCCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGC-TTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCG-GCGTGCCGGCAAGCGCCCTATGCGGGAATG</Hsp_qseq>
+      <Hsp_hseq>ATGCTGACCGGCCTCAACCATCTGACCCTCGCCGTGACCGACCTGAACCG--CAGCCTGGGGTTCTACCACGACCTGCTGGGCCTGCGCCTGGATGCCAGCTGGGACAGCGGCGCCTATCTGTCGCTGCCGGGCCTGTGGCTGTGCCTGTCGCTGGACCCGTCGCGCCGCTTGGCCGAAGTGCCGGACTACACCCACTATGCCTTCGGCATCGAGGCCGGGCATTTC-CTGGCGTTCGTCCAGCGCCTGCGGGCTGCTGGCGTGCGGGAGTGGCGCGACAACCGCAGCGAAGGCGCCTCGTTCTATTTCCTCGACCCCGACGGCCACCAGCTGGAAGCCCATGTCGGCGATCTG-GCCTCGCGTTTGCGCGCCTGCCGGCAGCAGCCCTATGCCGGGATG</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||| || |||||||| || ||  ||||||||  |||  |||| | |  ||||||| ||| || || ||| | |||||||| ||  ||||||||   |||||||||||    |||      ||||||||||||||||| | ||| |||  |  | ||  |||||  |   |||||||||| ||||| |||||||||||||  |||| | ||||| |  || |||| |  ||  ||||| ||   ||||||||| || |||    | ||||||||||| ||||  |||||||| ||||||||||| |||||||| |  ||||| ||||| |||||||| ||| ||  |  | | ||| || ||||||||   ||||||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1861348618|gb|CP049828.1|</Hit_id>
+  <Hit_def>Janthinobacterium lividum strain EIF2 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP049828</Hit_accession>
+  <Hit_len>6399352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.707</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>1.31987e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>4135388</Hsp_hit-from>
+      <Hsp_hit-to>4135786</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>298</Hsp_identity>
+      <Hsp_positive>298</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>403</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTGCCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTT-CGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCT--CGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAG--TACGGCGG-GCCGGCCG---CGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGC-GACCTGCGCAGCCGGCTCGCGGCGTGCCGGCAAGCGCCCTATGCGGGAATG</Hsp_qseq>
+      <Hsp_hseq>ATGTTGACCGGCCTGAACCACCTCACCCTGTCCGTGCGCGACCTGGCGCGCAGCATCGTCTTTTACCGCGA-CACCTTGGGTCTGCGCCTGCATGCGCGCTGGGACAGGGGCGCGTATCTGTCGGCCGGGGATT--TGTGGCTGTGCCTGTCGCTGGATGGACAGGATACGGCCGCGCTGGCCAGCCCGGCCTATACGCACTACGCGTTTTCCATCGAGCCCACCGACTTCGCTCCGTTTGCCGCCCGCCTGCGCGCCGCCGGCGTGCCCGAATGGCAGCAAAACCGCAGCGCCGGCGAATCCCTGTATTTTCTCGACCCGGACGGCCACCGGCTGGAAGCCCATGCTGGCAGCCTTGCGCAG-CGGCTGGCGGCCTGCCGCACAGCGCCGTATCAGGGCATG</Hsp_hseq>
+      <Hsp_midline>||| | ||||| || || ||||| |||||| | ||   ||||||| ||  |||||||| ||| |||||||| |  || || | | |||||| | ||||||||||||  |||||| |||||  ||  | ||| |   |||||||||||||||| | |||    |||  |||||| | || ||||    ||| ||| ||||||||||| ||   |||||   || | || ||||| |  || ||||| |  ||||||||    ||||||| ||||||| |||| ||||||||||  ||||| ||  | || || ||||||||||||||||| || ||||| ||||| |  ||| | | ||||||| ||||| ||||| |||||   |||||| |||  ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1440895816|gb|CP022313.1|</Hit_id>
+  <Hit_def>Pseudomonas fluorescens strain NEP1 genome</Hit_def>
+  <Hit_accession>CP022313</Hit_accession>
+  <Hit_len>6313875</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.707</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>1.31987e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>1390699</Hsp_hit-from>
+      <Hsp_hit-to>1391099</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>298</Hsp_identity>
+      <Hsp_positive>298</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>406</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCT--CGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGG---CGGGCCGGCCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCG-CGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCGGCGTGCCGGCAAGCGCCCTATGCGGGAATGCGTTT</Hsp_qseq>
+      <Hsp_hseq>ATGCTCACCGGCCTCAATCACCTGACCCTCGCCGTCACCGACCTGAACCG--CAGCCTCGCGTTCTACCGTGACGTGCTGAAGCTGCGAGTCGAAGCCACGTGGGACGCCGGTGCCTATCTGTCGCTCCCGGGCCTCTG--GTTGTGCCTGTCCCTTGACCCGAAGCGCAGTCCCGAGCCCGCCGCCGACTACACCCACTACGCCTTCAGCCTCGGCGCGGCGGATTTCCCGCTGTTCGTGCAACAGCTTCGCGCCGCA-AACGTGCAGGAATGGCGTGACAACCGCAGCGAAGGCGCGTCGTTCTACTTCCTCGACCCGGAGGGGCACAAGCTCGAAGCCCACGTCGGCGATCTGGCCTCGCGACTGGCCACGTGTCGGCAAAAGCCCTATGCGGGGATGCGTTT</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||||||||||||||| || ||| ||||||||  |||  |||| |||| |||||||| ||  | ||     | ||  | |||||    ||||||   || ||||||||  ||  |  ||  | |||  | ||||||||||||  || ||| ||  | |   || ||| ||||| |||||||| |||||||||||| || ||| ||| ||||||||| | |  ||||     ||||| |||| ||||   |||||  ||||||    | ||||||||||| ||||  ||||||||||||||||||||||| || ||    || || |||||||||||||| |||  |   || || ||  |||| ||||||  |||||||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1861342771|gb|CP048832.1|</Hit_id>
+  <Hit_def>Janthinobacterium lividum strain EIF1 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP048832</Hit_accession>
+  <Hit_len>6373589</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.002</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>1.60793e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>397</Hsp_query-to>
+      <Hsp_hit-from>4107017</Hsp_hit-from>
+      <Hsp_hit-to>4107420</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>298</Hsp_identity>
+      <Hsp_positive>298</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>407</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTGCCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCT--CGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTAC---GGCGGGCCGGCCG---CGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGC-GACCTGCGCAGCCGGCTCGCGGCGTGCCGGCAAGCGCCCTATGCGGGAAT-GCGTT</Hsp_qseq>
+      <Hsp_hseq>ATGTTGACCGGCCTGAACCACCTCACCCTGTCCGTGCGCGACCTGGCGCGCAGCATCGTCTTTTACCGCGACACCTTGGGCCTGCGCCTGCATGCGCGCTGGGACAGGGGCGCGTATCTGTCGGCCGGGGATT--TGTGGCTGTGCCTGTCGCTGGATGGTCAGGACACGGCCGCGCTGGCCAGCCCGGCCTATACGCACTATGCGTTTTCCATCGAGCCCACCGACTTCGCTCCGTTTGCCGCCCGCCTGCGCGCCGCCGGCGTGCCCGAATGGCAGCAAAACCGCAGCGCCGGCGAATCCCTGTATTTTCTCGACCCGGACGGCCACCGGCTGGAAGCCCATGTTGGCAGCCTTGCGCAG-CGGCTGGCGGCCTGCCGCGCAGCGCCGTATCAGGGCATGGCGTT</Hsp_hseq>
+      <Hsp_midline>||| | ||||| || || ||||| |||||| | ||   ||||||| ||  |||||||| ||| ||||||||     | ||| | |||||| | ||||||||||||  |||||| |||||  ||  | ||| |   |||||||||||||||| | |||    ||| ||   | || || ||||    ||| ||| |||||||| || ||   |||||   || | || ||||| |  || ||||| |  ||||||||    ||||||| ||||||| |||| ||||||||||  ||||| ||  | || || ||||||||||||||||| || ||||| ||||| || ||| | | ||||||| ||||| ||||| |||||   |||||| |||  ||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1808518483|gb|CP048408.1|</Hit_id>
+  <Hit_def>Pseudomonas fluorescens strain DR397 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP048408</Hit_accession>
+  <Hit_len>6418441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.101</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>1.60793e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>1763914</Hsp_hit-from>
+      <Hsp_hit-to>1764314</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>295</Hsp_identity>
+      <Hsp_positive>295</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>405</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCT--CGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGG---CGGGCCGGCCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCGGCGTGCCGGCAAGCGCCCTATGCGGGAATGCGTTT</Hsp_qseq>
+      <Hsp_hseq>ATGCTCACCGGCCTCAACCACCTGACCCTCGCCGTCACCGACCTGAACCG--CAGCCTCGCGTTCTACCGTGACTTGCTGAAGCTGCGAGTCGAGGCCACCTGGGACGCCGGTGCCTATCTGTCGCTCCCGGGCC--TGTGGTTGTGCCTGTCCCTCGATCCGAAGCGCCATCCCGAGCCCGCCGCCGACTACACCCACTACGCCTTCAGCATTGGCGCGGCGGATTTCCCGCTGTTCGTACAGCAGCTTCGCGCCGCCAACGTGCAGGAATGGCGCGACAACCGTAGCGAAGGCGCGTCGTTCTACTTCCTCGACCCGGACGGGCACAAACTCGAAGCCCACGTCGGCGACCTGGCCTCGCGACTGGCCGCGTGTCGGCAAAAGCCCTACGCGGGCATGGGTTT</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||| ||||||||||| || ||| ||||||||  |||  |||| |||| |||||||| ||  | ||     | ||  | || ||   |||||||   || ||||||||  ||  |  ||  |  ||||| ||||||||||||  || ||| ||  |     || ||| ||||| |||||||| |||||||||||| |||| | ||| ||||||||| | |  ||||    |||||| |||||      |||||  ||||||    | ||||| ||||| ||||  |||||||||||||||||||||||||| ||    || || ||||||||||||||||||  |   || || || ||||| ||||||  |||||| ||||| ||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1830201582|gb|CP050992.1|</Hit_id>
+  <Hit_def>Chromobacterium violaceum strain FDAARGOS_635 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP050992</Hit_accession>
+  <Hit_len>4757798</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.199</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>5.61222e-53</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>1983389</Hsp_hit-from>
+      <Hsp_hit-to>1983027</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>277</Hsp_identity>
+      <Hsp_positive>277</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>373</Hsp_align-len>
+      <Hsp_qseq>GCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGG-CCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCG-CGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCGGCGTGCCG</Hsp_qseq>
+      <Hsp_hseq>GCTGAACGGACTCAATCATCTGACCCTGGCGGTCGCCGACCTGGACCGGTC--CTGGGACTTCTACCACGGCCTGCTCGGCGCCCGGCCGCACGCGCGCTGGGCCGGCGGCGCCTACCTGAGCCTGGGCGAGTTGTGGCTGTGCCTGTCTCTGGACGCGCC------CGAACCGGACCGCGG-CTACACCCATTACGCGTTCGGCGTCGCCGCCGCCGATTTTCCGGCCTGGGCGGCGCGCTTGCGCGACGCC-GGCGTCCAAACCTGGAAAGACAACCGCAGCGAGGGCGACTCCTTCTACTTTCTGGACCCGGACGGCCATCGGCTGGAGCTGCACGTCGGCTCGCTGCAGAGCCGCCTCGCCGCCTGCCG</Hsp_hseq>
+      <Hsp_midline>||| | ||| |||||||| ||||||||||||||||||||||||  |||| |  |   | |||||||| ||  || ||||||   || | | | |||||||||| |   |||||||| ||    |||||   | |||||||||||||||| | |||  |||       ||  |||| |||||| |||||| || ||||| |||||| |||||||||| |||||  |   ||  || ||||   |||||| |||  ||||| |     |||||  | ||||||||||||||||| || |||||||| || ||||||||||||||||| ||||||   |||||||||   ||||  ||||| ||||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|34105712|gb|AE016825.1|</Hit_id>
+  <Hit_def>Chromobacterium violaceum ATCC 12472, complete genome</Hit_def>
+  <Hit_accession>AE016825</Hit_accession>
+  <Hit_len>4751080</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.199</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>5.61222e-53</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>173331</Hsp_hit-from>
+      <Hsp_hit-to>173693</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>277</Hsp_identity>
+      <Hsp_positive>277</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>373</Hsp_align-len>
+      <Hsp_qseq>GCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGG-CCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCG-CGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCGGCGTGCCG</Hsp_qseq>
+      <Hsp_hseq>GCTGAACGGACTCAATCATCTGACCCTGGCGGTCGCCGACCTGGACCGGTC--CTGGGACTTCTACCACGGCCTGCTCGGCGCCCGGCCGCACGCGCGCTGGGCCGGCGGCGCCTACCTGAGCCTGGGCGAGTTGTGGCTGTGCCTGTCTCTGGACGCGCC------CGAACCGGGCCGCGG-CTACACCCATTACGCGTTCGGCGTCGCCGCCGCCGATTTTCCGGCCTGGGCGGCGCGCTTGCGCGACGCC-GGCGTCCAAACCTGGAAAGACAACCGCAGCGAGGGCGACTCCTTCTACTTCCTGGACCCGGACGGCCATCGGCTGGAGCTGCACGTCGGCTCGCTGCAGAGCCGCCTCGCCGCCTGTCG</Hsp_hseq>
+      <Hsp_midline>||| | ||| |||||||| ||||||||||||||||||||||||  |||| |  |   | |||||||| ||  || ||||||   || | | | |||||||||| |   |||||||| ||    |||||   | |||||||||||||||| | |||  |||       ||  |||| |||||| |||||| || ||||| |||||| |||||||||| |||||  |   ||  || ||||   |||||| |||  ||||| |     |||||  | ||||||||||||||||| || ||||||||||| ||||||||||||||||| ||||||   |||||||||   ||||  ||||| ||||| || || ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1524252930|gb|CP027714.1|</Hit_id>
+  <Hit_def>Pseudomonas chlororaphis strain ATCC 17415 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP027714</Hit_accession>
+  <Hit_len>6670884</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.396</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>1.95886e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>1515483</Hsp_hit-from>
+      <Hsp_hit-to>1515878</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>292</Hsp_identity>
+      <Hsp_positive>292</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>398</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTGCCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCG-GGCCG--GCCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGC-TTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCG-GCGTGCCGGCAAGCGCCCTATGCGGGAATG</Hsp_qseq>
+      <Hsp_hseq>ATGCTCACCGGCCTCAACCACCTGACCCTCGCTGTGACCGACCTGAATCGCAGCCTGGGGTTTTACCGCGACCTGCTGGGCCTGCGCCTGGATGCCAGCTGGGACAGCGGCGCCTATCTGTCGCTGCCGGGCCTGTGGTTGTGCCTGTCGCTGGACCCGTCGCGCCGCTCGGCCGAAGTGTCGGACTACACCCACTATGCCTTCAGCATCGAGGCCGGGCATTTC-CTGGCGTTCGTCCAGCGCCTGCGGGCTGCTGGCGTACGGGAGTGGCGCGACAACCGCAGCGAAGGCGCCTCGTTCTATTTCCTCGACCCCGACGGCCACCCGCTGGAAGCCCATGTCGGCGATCTG-GCCTCGCGCTTGCGCGCCTGCCGGCAGCAGCCCTATGCCGGGATG</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||| ||||||||||| || ||  ||||||||     |||| | |  || |||||||| || || ||| | |||||||| ||  ||||||||   |||||||||||    |||      |||||| |||||||||| | ||| |||  |  | ||  |||||  |   |||||||||| ||||| |||||| ||||||  |||| | ||||| |  || |||| |  ||  ||||| ||   |||||| || || |||    | ||||||||||| ||||  |||||||| ||||||||||| |||||||| |  ||||| ||||| |||||||| ||| ||  |  ||| ||| || ||||||||   ||||||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1524239412|gb|CP027712.1|</Hit_id>
+  <Hit_def>Pseudomonas chlororaphis subsp. chlororaphis strain DSM 50083 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP027712</Hit_accession>
+  <Hit_len>6808187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.396</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>1.95886e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>1519150</Hsp_hit-from>
+      <Hsp_hit-to>1519545</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>298</Hsp_identity>
+      <Hsp_positive>298</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>403</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCT--CGAA-CTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCG-GGCCG--GCCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGC-TTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCG-GCGTGCCGGCAAGCGCCCTATGCGGGAATG</Hsp_qseq>
+      <Hsp_hseq>ATGCTGACCGGCCTCAACCACCTGACCCTCGCCGTGACCGACCTGAACCG--CAGCCTGGGGTTCTACCACGACCTGCTGGGCCTGCGCCTGGACGCCAGCTGGGACAGCGGCGCCTATCTGTCGTTGCCGGGC---CTGTGGTTGTGCCTGTCGCTGGACCCGTCGCGCCGCTTGGCCGAAGTGCCGGACTACACCCACTATGCCTTCGGCATCGAGGCCGGGCATTTC-CTGGCGTTCGTCCAGCGCCTGCGGGCTGCTGGCGTGCGGGAGTGGCGCGACAACCGCAGCGAAGGCGCCTCGTTCTATTTCCTCGACCCCGACGGCCACCAGCTGGAAGCCCATGTCGGCGATCTG-GCCTCGCGTTTGCGCGCCTGTCGGCAGCAGCCCTATGCCGGGATG</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||| ||||||||||| || ||  ||||||||  |||  |||| | |  ||||||| ||| || || ||| | |||||||| ||  ||||||||   |||||||||||  ||   | |||    |||||| |||||||||| | ||| |||  |  | ||  |||||  |   |||||||||| ||||| |||||||||||||  |||| | ||||| |  || |||| |  ||  ||||| ||   ||||||||| || |||    | ||||||||||| ||||  |||||||| ||||||||||| |||||||| |  ||||| ||||| |||||||| ||| ||  |  | | ||| || || |||||   ||||||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1769907724|gb|CP045221.1|</Hit_id>
+  <Hit_def>Pseudomonas chlororaphis subsp. aurantiaca strain ARS 38 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP045221</Hit_accession>
+  <Hit_len>6615046</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.691</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>6.83708e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>805274</Hsp_hit-from>
+      <Hsp_hit-to>805669</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>292</Hsp_identity>
+      <Hsp_positive>292</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>401</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCG-----CAGTACGGCGGGCCGGCCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCG-GCGTGCCGGCAAGCGCCCTATGCGGGAATG</Hsp_qseq>
+      <Hsp_hseq>ATGCTGACCGGCCTCAACCACCTGACCCTCGCCGTTACCGATCTGAACCG--CAGCCTGGGGTTCTACCGCGACCTGCTGGGCCTGCGCCTGGATGCCAGCTGGGACAGCGGCGCCTATCTGTCGCTGCCGGGCCTGTGGTTGTGCCTGTCGCTGGACTCGTCGCGCCGTTCGGCGGAGGTGCCG--GACTACACCCATTACGCCTTCAGCATCGAGGCCGGGCATTTCGTGGCGTTCGTCCAGCACCTGCGTGCTGCTGGCGTGCGGGAGTGGTGCGACAACCGCAGCGAAGGCGCCTCGTTCTATTTTCTCGACCCCGACGGCCACCAGCTGGAAGCCCATGTCGGCGATCTG-GCCTCGCGCTTGCGCGCCTGTCGGCAGCAACCCTATGCCGGGATG</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||| ||||||||||| || ||  |||| |||  |||  |||| | |  ||||||||||| || || ||| | |||||||| ||  ||||||||   |||||||||||    |||      |||||| |||||||||| | |||  ||     | || ||||||    ||||  |||||||| || ||||||||| ||||||  |||| | ||||||     |||| |  ||| ||||| ||   ||||||||| || |||    | ||||||||||| ||||  |||||||| || |||||||| |||||||| |  ||||| ||||| |||||||| ||| ||  |  ||| ||| || || |||||    |||||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1524266337|gb|CP027716.1|</Hit_id>
+  <Hit_def>Pseudomonas chlororaphis strain Pb-St2 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP027716</Hit_accession>
+  <Hit_len>6613798</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.691</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>6.83708e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>1474027</Hsp_hit-from>
+      <Hsp_hit-to>1474422</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>292</Hsp_identity>
+      <Hsp_positive>292</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>401</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCG-----CAGTACGGCGGGCCGGCCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCG-GCGTGCCGGCAAGCGCCCTATGCGGGAATG</Hsp_qseq>
+      <Hsp_hseq>ATGCTGACCGGCCTCAACCACCTGACCCTCGCCGTTACCGATCTGAACCG--CAGCCTGGGGTTCTACCGCGACCTGCTGGGCCTGCGCCTGGATGCCAGCTGGGACAGCGGCGCCTATCTGTCGCTGCCGGGCCTGTGGTTGTGCCTGTCGCTGGACTCGTCGCGCCGTTCGGCGGAGGTGCCG--GACTACACCCATTACGCCTTCAGCATCGAGGCCGGGCATTTCGTGGCGTTCGTCCAGCACCTGCGTGCTGCTGGCGTGCGGGAGTGGTGCGACAACCGCAGCGAAGGCGCCTCGTTCTATTTTCTCGACCCCGACGGCCACCAGCTGGAAGCCCATGTCGGCGATCTG-GCCTCGCGCTTGCGCGCCTGTCGGCAGCAACCCTATGCCGGGATG</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||| ||||||||||| || ||  |||| |||  |||  |||| | |  ||||||||||| || || ||| | |||||||| ||  ||||||||   |||||||||||    |||      |||||| |||||||||| | |||  ||     | || ||||||    ||||  |||||||| || ||||||||| ||||||  |||| | ||||||     |||| |  ||| ||||| ||   ||||||||| || |||    | ||||||||||| ||||  |||||||| || |||||||| |||||||| |  ||||| ||||| |||||||| ||| ||  |  ||| ||| || || |||||    |||||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1012291606|gb|CP014867.1|</Hit_id>
+  <Hit_def>Pseudomonas chlororaphis isolate 189, complete genome</Hit_def>
+  <Hit_accession>CP014867</Hit_accession>
+  <Hit_len>6837781</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.887</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>2.38638e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>1440630</Hsp_hit-from>
+      <Hsp_hit-to>1440235</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>291</Hsp_identity>
+      <Hsp_positive>291</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>398</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTGCCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCG-GGCCG--GCCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGC-TTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCT-CGCGGCGTGCCGGCAAGCGCCCTATGCGGGAATG</Hsp_qseq>
+      <Hsp_hseq>ATGCTCACCGGCCTCAACCATCTGACCCTCGCCGTGACCGACCTGAATCGCAGCCTGGGGTTCTACCGCGACCTGCTGGGCCTGCGCCTGGATGCCAGCTGGGACAGCGGCGCCTATCTGTCGCTGCCGAGCCTGTGGTTGTGCCTGTCGCTGGACCCGTCGCGCCGCTCGGCCGAAGTGCCGGACTACACCCACTATGCCTTCAGCATCGAGGCCGGGCATTTC-CTGGCGTTCGTCCAGCGCCTGCGGGCTGCTGGCGTGCGGGAGTGGCGCGACAACCGCAGCGAAGGCGCCTCGTTCTATTTCCTCGACCCCGACGGCCACCAGCTGGAAGCCCATGTCGGCGATCTGGTCTCGCGTTTGCGC-GCCTGCCGGCAGCAGCCCTATGCCGGGATG</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||| || |||||||| || ||  ||||||||     |||| | |  ||||||||||| || || ||| | |||||||| ||  ||||||||   |||||||||||    |||      |||||| |||||||||| | ||| |||  |  | ||  |||||  |   |||||||||| ||||| |||||| ||||||  |||| | ||||| |  || |||| |  ||  ||||| ||   ||||||||| || |||    | ||||||||||| ||||  |||||||| ||||||||||| |||||||| |  ||||| ||||| |||||||| |||  |   ||  | ||| || ||||||||   ||||||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1524226469|gb|CP027740.1|</Hit_id>
+  <Hit_def>Pseudomonas chlororaphis subsp. piscium strain ChPhzS140 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP027740</Hit_accession>
+  <Hit_len>7074317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.986</Hsp_bit-score>
+      <Hsp_score>237</Hsp_score>
+      <Hsp_evalue>8.32927e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>1528978</Hsp_hit-from>
+      <Hsp_hit-to>1529373</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>290</Hsp_identity>
+      <Hsp_positive>290</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>399</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGGCCG---CGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCG-GCGTGCCGGCAAGCGCCCTATGCGGGAATG</Hsp_qseq>
+      <Hsp_hseq>ATGCTGACCGGCCTCAACCACCTGACCCTCGCCGTTACCGACCTGAACCG--CAGCCTGGGGTTCTACCGCGACCTGCTGGGCCTGCGCCTGGACGCCAGCTGGGACGGCGGCGCCTATCTGTCGCTGCCGGGCCTGTGGCTGTGCCTGTCGCTGGACTCGTCGCGCCGCCCGGCGGAAGTGCCGGACTACACCCACTACGCCTTCAGCATCGAGGCCGGGCATTTCGTGGCGTTCGCCCAACGCCTGCGTGCTGCCGGCGTGCGGGAGTGGCGTGACAACCGCAGTGAAGGGGCCTCGTTCTATTTTCTCGACCCTGACGGCCACCAGCTGGAAGCCCATGTCGGTGATCTG-GCCTCGCGCTTGCGCGCCTGCCGGCAGCAGCCCTATGCCGGGATG</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||| ||||||||||| || ||  ||||||||  |||  |||| | |  ||||||||||| || || ||| | |||||||| ||  ||||||||   |||||||||||    |||      ||||||||||||||||| | |||  ||  |  | ||  | |||  |   |||||||||| |||||||||||| ||||||  |||| | ||||||     ||||||   |  ||||| ||    |||||||| || |||    | |||||||| || || |  |||||||| || |||||||| |||||||| |  ||||| ||||| ||||| || ||| ||  |  ||| ||| || ||||||||   ||||||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1364854807|gb|CP027656.1|</Hit_id>
+  <Hit_def>Pseudomonas chlororaphis subsp. piscium strain ZJU60 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP027656</Hit_accession>
+  <Hit_len>6818002</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.986</Hsp_bit-score>
+      <Hsp_score>237</Hsp_score>
+      <Hsp_evalue>8.32927e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>1508348</Hsp_hit-from>
+      <Hsp_hit-to>1508743</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>290</Hsp_identity>
+      <Hsp_positive>290</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>399</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGGCCG---CGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCG-GCGTGCCGGCAAGCGCCCTATGCGGGAATG</Hsp_qseq>
+      <Hsp_hseq>ATGCTGACCGGCCTCAACCACCTGACCCTCGCCGTTACCGACCTGAACCG--CAGCCTGGGGTTCTACCGCGACCTGCTGGGCCTGCGCCTGGATGCCAGCTGGGACGGCGGCGCCTATCTGTCGCTGCCGGGCCTGTGGCTGTGCCTGTCGCTGGACTCGTCGCGCCGCCCGGCGGAAGTGCCGGACTACACCCACTACGCCTTCAGCATCGAGGCCGGGCATTTCGTGGCGTTCGCCCAACGCCTGCGTGCTGCCGGCGTGCGGGAGTGGCGTGACAACCGCAGTGAAGGGGCCTCGTTCTATTTTCTCGACCCTGACGGCCACCAGCTGGAAGCCCATGTCGGTGATCTG-GCCTCGCGCTTGCGCGCCTGCCGGCAGCAGCCCTATGCCGGGATG</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||| ||||||||||| || ||  ||||||||  |||  |||| | |  ||||||||||| || || ||| | |||||||| ||  ||||||||   |||||||||||    |||      ||||||||||||||||| | |||  ||  |  | ||  | |||  |   |||||||||| |||||||||||| ||||||  |||| | ||||||     ||||||   |  ||||| ||    |||||||| || |||    | |||||||| || || |  |||||||| || |||||||| |||||||| |  ||||| ||||| ||||| || ||| ||  |  ||| ||| || ||||||||   ||||||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1539475005|emb|LR134182.1|</Hit_id>
+  <Hit_def>Chromobacterium violaceum strain NCTC9695 genome assembly, chromosome: 1</Hit_def>
+  <Hit_accession>LR134182</Hit_accession>
+  <Hit_len>4733553</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.182</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>2.9072e-50</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>159929</Hsp_hit-from>
+      <Hsp_hit-to>160291</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>275</Hsp_identity>
+      <Hsp_positive>275</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>373</Hsp_align-len>
+      <Hsp_qseq>GCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGG-CCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCG-CGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCGGCGTGCCG</Hsp_qseq>
+      <Hsp_hseq>GCTGAACGGACTCAATCATCTGACCCTGGCGGTCGCCGACCTGGACCGGTC--CTGGGACTTCTACCACGGCCTGCTCGGCGCCCGGCCGCACGCGCGCTGGGCCGGCGGCGCCTACCTGAGCCTGGGCGAGTTGTGGCTGTGCCTGTCTCTGGACGCGCC------CGAACCGGGCCGCGG-CTACACCCATTACGCGTTCGGCGTCGCCGCCGCCGATTTTCCGGCCTGGGCGGCGCGCTTGCGCGACGCC-GGCGTCCAAACCTGGAAAGACAACCGCAGCGAGGGCGACTCCTTCTACTTTCTGGATCCGGACGGCCATCGGCTGGAGCTGCACGTCGGCTCGCTGCAGAGCCGCCTCGCCGCCTGTCG</Hsp_hseq>
+      <Hsp_midline>||| | ||| |||||||| ||||||||||||||||||||||||  |||| |  |   | |||||||| ||  || ||||||   || | | | |||||||||| |   |||||||| ||    |||||   | |||||||||||||||| | |||  |||       ||  |||| |||||| |||||| || ||||| |||||| |||||||||| |||||  |   ||  || ||||   |||||| |||  ||||| |     |||||  | ||||||||||||||||| || |||||||| || || |||||||||||||| ||||||   |||||||||   ||||  ||||| ||||| || || ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1272225406|gb|CP024029.1|</Hit_id>
+  <Hit_def>Chromobacterium violaceum strain CV1197 chromosome</Hit_def>
+  <Hit_accession>CP024029</Hit_accession>
+  <Hit_len>4388579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.182</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>2.9072e-50</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>154447</Hsp_hit-from>
+      <Hsp_hit-to>154809</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>275</Hsp_identity>
+      <Hsp_positive>275</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>373</Hsp_align-len>
+      <Hsp_qseq>GCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGG-CCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCG-CGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCGGCGTGCCG</Hsp_qseq>
+      <Hsp_hseq>GCTGAACGGACTCAATCATCTGACCCTGGCGGTCGCCGACCTGGACCGGTC--CTGGGACTTCTACCACGGCCTGCTCGGTGCCCGGCCGCACGCGCGCTGGGCCGGCGGCGCCTACCTGAGCCTGGGCGAGTTGTGGCTGTGCCTGTCTCTGGACGCGCC------CGAACCGGGCCGCGG-CTACACCCATTACGCGTTCGGCGTCGCCGCCGCCGATTTTCCGGCCTGGGCGGCGCGCTTGCGCGACGCC-GGCGTCCAAACCTGGAAAGACAACCGCAGCGAGGGCGACTCCTTCTACTTTCTGGACCCGGACGGCCATCGGCTGGAGCTGCACGTCGGCTCGCTGCAGAGCCGTCTCGCCGCCTGTCG</Hsp_hseq>
+      <Hsp_midline>||| | ||| |||||||| ||||||||||||||||||||||||  |||| |  |   | |||||||| ||  || |||||    || | | | |||||||||| |   |||||||| ||    |||||   | |||||||||||||||| | |||  |||       ||  |||| |||||| |||||| || ||||| |||||| |||||||||| |||||  |   ||  || ||||   |||||| |||  ||||| |     |||||  | ||||||||||||||||| || |||||||| || ||||||||||||||||| ||||||   |||||||||   ||||  ||||| ||||| || || ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1272221494|gb|CP024028.1|</Hit_id>
+  <Hit_def>Chromobacterium violaceum strain CV1192 chromosome</Hit_def>
+  <Hit_accession>CP024028</Hit_accession>
+  <Hit_len>4386139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.182</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>2.9072e-50</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>154419</Hsp_hit-from>
+      <Hsp_hit-to>154781</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>275</Hsp_identity>
+      <Hsp_positive>275</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>373</Hsp_align-len>
+      <Hsp_qseq>GCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGG-CCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCG-CGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCGGCGTGCCG</Hsp_qseq>
+      <Hsp_hseq>GCTGAACGGACTCAATCATCTGACCCTGGCGGTCGCCGACCTGGACCGGTC--CTGGGACTTCTACCACGGCCTGCTCGGTGCCCGGCCGCACGCGCGCTGGGCCGGCGGCGCCTACCTGAGCCTGGGCGAGTTGTGGCTGTGCCTGTCTCTGGACGCGCC------CGAACCGGGCCGCGG-CTACACCCATTACGCGTTCGGCGTCGCCGCCGCCGATTTTCCGGCCTGGGCGGCGCGCTTGCGCGACGCC-GGCGTCCAAACCTGGAAAGACAACCGCAGCGAGGGCGACTCCTTCTACTTTCTGGACCCGGACGGCCATCGGCTGGAGCTGCACGTCGGCTCGCTGCAGAGCCGTCTCGCCGCCTGTCG</Hsp_hseq>
+      <Hsp_midline>||| | ||| |||||||| ||||||||||||||||||||||||  |||| |  |   | |||||||| ||  || |||||    || | | | |||||||||| |   |||||||| ||    |||||   | |||||||||||||||| | |||  |||       ||  |||| |||||| |||||| || ||||| |||||| |||||||||| |||||  |   ||  || ||||   |||||| |||  ||||| |     |||||  | ||||||||||||||||| || |||||||| || ||||||||||||||||| ||||||   |||||||||   ||||  ||||| ||||| || || ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1986166059|gb|CP069587.1|</Hit_id>
+  <Hit_def>Chromobacterium violaceum strain FDAARGOS_1273 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP069587</Hit_accession>
+  <Hit_len>4758933</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.182</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>2.9072e-50</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>1570030</Hsp_hit-from>
+      <Hsp_hit-to>1569668</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>275</Hsp_identity>
+      <Hsp_positive>275</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>373</Hsp_align-len>
+      <Hsp_qseq>GCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGG-CCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCG-CGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCGGCGTGCCG</Hsp_qseq>
+      <Hsp_hseq>GCTGAACGGACTCAATCATCTGACCCTGGCGGTCGCCGACCTGGACCGGTC--CTGGGACTTCTACCACGGCCTGCTCGGTGCCCGGCCGCACGCGCGCTGGGCCGGCGGCGCCTACCTGAGCCTGGGCGAGTTGTGGCTGTGCCTGTCTCTGGACGCGCC------CGAACCGGGCCGCGG-CTACACCCATTACGCGTTCGGCGTCGCCGCCGCCGATTTTCCGGCCTGGGCGGCGCGCTTGCGCGACGCC-GGCGTCCAAACCTGGAAAGACAACCGCAGCGAGGGCGACTCCTTCTACTTTCTGGACCCGGACGGCCATCGGCTGGAGCTGCACGTCGGCTCGCTGCAGAGCCGTCTCGCCGCCTGTCG</Hsp_hseq>
+      <Hsp_midline>||| | ||| |||||||| ||||||||||||||||||||||||  |||| |  |   | |||||||| ||  || |||||    || | | | |||||||||| |   |||||||| ||    |||||   | |||||||||||||||| | |||  |||       ||  |||| |||||| |||||| || ||||| |||||| |||||||||| |||||  |   ||  || ||||   |||||| |||  ||||| |     |||||  | ||||||||||||||||| || |||||||| || ||||||||||||||||| ||||||   |||||||||   ||||  ||||| ||||| || || ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1985978266|gb|CP069442.1|</Hit_id>
+  <Hit_def>Chromobacterium violaceum strain FDAARGOS_1274 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP069442</Hit_accession>
+  <Hit_len>4758933</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.182</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>2.9072e-50</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>3222756</Hsp_hit-from>
+      <Hsp_hit-to>3223118</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>275</Hsp_identity>
+      <Hsp_positive>275</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>373</Hsp_align-len>
+      <Hsp_qseq>GCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGG-CCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCG-CGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCGGCGTGCCG</Hsp_qseq>
+      <Hsp_hseq>GCTGAACGGACTCAATCATCTGACCCTGGCGGTCGCCGACCTGGACCGGTC--CTGGGACTTCTACCACGGCCTGCTCGGTGCCCGGCCGCACGCGCGCTGGGCCGGCGGCGCCTACCTGAGCCTGGGCGAGTTGTGGCTGTGCCTGTCTCTGGACGCGCC------CGAACCGGGCCGCGG-CTACACCCATTACGCGTTCGGCGTCGCCGCCGCCGATTTTCCGGCCTGGGCGGCGCGCTTGCGCGACGCC-GGCGTCCAAACCTGGAAAGACAACCGCAGCGAGGGCGACTCCTTCTACTTTCTGGACCCGGACGGCCATCGGCTGGAGCTGCACGTCGGCTCGCTGCAGAGCCGTCTCGCCGCCTGTCG</Hsp_hseq>
+      <Hsp_midline>||| | ||| |||||||| ||||||||||||||||||||||||  |||| |  |   | |||||||| ||  || |||||    || | | | |||||||||| |   |||||||| ||    |||||   | |||||||||||||||| | |||  |||       ||  |||| |||||| |||||| || ||||| |||||| |||||||||| |||||  |   ||  || ||||   |||||| |||  ||||| |     |||||  | ||||||||||||||||| || |||||||| || ||||||||||||||||| ||||||   |||||||||   ||||  ||||| ||||| || || ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1950151479|gb|CP066546.1|</Hit_id>
+  <Hit_def>Pseudomonas chlororaphis subsp. aureofaciens strain SPS-41 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP066546</Hit_accession>
+  <Hit_len>6757898</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.379</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>1.01471e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>2410973</Hsp_hit-from>
+      <Hsp_hit-to>2411368</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>398</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTGCCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGGCCG---CGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGC-GCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCG-GCGTGCCGGCAAGCGCCCTATGCGGGAATG</Hsp_qseq>
+      <Hsp_hseq>ATGCTCACCGGCCTCAACCACCTGACCCTCGCCGTTACCGATCTCAAGCGCAGCCTGGGGTTCTACCACGATCTGCTGGGTCTGCGCCTGGACGCCAGCTGGGACGGCGGCGCCTATCTGTCGCTGCCGGGCCTGTGGTTGTGCCTGTCGCTGGACTCGTCGCGCCGCTCGGCGGAAGTGCCGGACTACACCCATTACGCCTTCAGCATCGAGGCCGGGCATTTTGTGGCGTTCGTCCAGCGCCTGCGCGCCGCA-GGCGTGCGGGAGTGGCGCGACAACCGCAGCGAAGGCGCGTCGTTCTATTTTCTCGACCCCGACGGCCACCAGCTGGAAGCCCATGTCGGCGACCTG-GCCTCACGCTTGCGCGCCTGCCGGCAGCAACCCTATGCCGGGATG</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||| ||||||||||| || ||  |||| ||   |  |||| | |  ||||||| |||||| || ||  | |||||||| ||  ||||||||   |||||||||||    |||      |||||| |||||||||| | |||  ||  |  | ||  | |||  |   |||||||||| || ||||||||| ||||||  |||| | |||| |     |||| |  ||  |||||||| ||| |||||||| || |||    | ||||||||||| ||||  |||||||| || |||||||| |||||||| |  ||||| ||||| |||||||||||| ||  |  ||| ||| || ||||||||    |||||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|253992019|gb|CP000094.2|</Hit_id>
+  <Hit_def>Pseudomonas fluorescens Pf0-1, complete genome</Hit_def>
+  <Hit_accession>CP000094</Hit_accession>
+  <Hit_len>6438405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.379</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>1.01471e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>1495726</Hsp_hit-from>
+      <Hsp_hit-to>1496126</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>290</Hsp_identity>
+      <Hsp_positive>290</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>403</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTGCCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTA--TCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAG---TACGGCGGGCCGGCCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCGGCGTGCCGGCAAGCGCCCTATGCGGGAATGCGTTT</Hsp_qseq>
+      <Hsp_hseq>ATGCTCACCGGCCTCAACCACCTGACCCTCGCCGTCACCGACCTGGACAGCAGCCTCGCGTTCTACCGCGACGTGCTGAAGCTGCGAGTCGAGGCCACCTGGGACGCCGGTGCCTACCTGTCGCTCCCGG--GCCTGTGGTTGTGCCTGTCCCTCGATCCGAAGCGCCATCCCGAGCCCGCCGCCGACTACACCCACTACGCCTTCAGCATTGGCGCGGCGGATTTCCCGCTGTTCGTGCAACTGCTTCGCGCCGCCAACGTGCAGGAATGGCGCGACAACCGCAGCGAAGGCGCGTCGTTCTACTTCCTCGACCCGGACGGTCACAAGCTCGAAGCCCACGTCGGCGATCTGGCCTCGCGACTGGCCGCGTGTCGGCAAAAGCCCTACGCGGGCATGGGTTT</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||| ||||||||||| || ||| ||||||||     |||| |||| |||||||||||  | ||     | ||  | || ||   |||||||   || |||||  | |||  |  ||    |||||| ||||||||||||  || ||| ||    |   || ||| ||||| |||||||| |||||||||||| |||| | ||| ||||||||| | |  ||||     | ||| |||||      |||||  ||||||    | ||||||||||| ||||  |||||||||||||||||||||||||| ||    || || |||||||||||||| |||  |   || || || ||||| ||||||  |||||| ||||| ||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1524233208|gb|CP027711.1|</Hit_id>
+  <Hit_def>Pseudomonas chlororaphis subsp. piscium strain ChPhzTR44 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP027711</Hit_accession>
+  <Hit_len>6878216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.477</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>1.01471e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>1533427</Hsp_hit-from>
+      <Hsp_hit-to>1533822</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>399</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGGCCG---CGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCG-GCGTGCCGGCAAGCGCCCTATGCGGGAATG</Hsp_qseq>
+      <Hsp_hseq>ATGCTGACCGGCCTCAATCACCTGACCCTCGCCGTTACCGATCTGAACCG--CAGCCTGGGGTTCTACCGCGACCTGCTGGGCCTGCGCCTGGACGCCAGCTGGGACGGCGGCGCCTATCTGTCGCTGCCGGGCCTGTGGCTGTGCCTGTCGCTGGACTCGTCGCGCCGCCCGGCGGAAGTGCCGGACTACACCCATTACGCCTTCAGCATCGAGGCCGGGCATTTCGTGGCGTTCGCCCAACGCCTGCGTGCTGCCGGCGTGCGGGAGTGGCGCGACAACCGCAGTGAAGGGGCCTCGTTCTATTTTCTCGATCCAGACGGCCACCAACTGGAAGCCCATGTCGGCGATCTG-GCCTCGCGCTTGCGCGCCTGCCGGCAGCAGCCCTATGCCGGGATG</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||||||||||||||| || ||  |||| |||  |||  |||| | |  ||||||||||| || || ||| | |||||||| ||  ||||||||   |||||||||||    |||      ||||||||||||||||| | |||  ||  |  | ||  | |||  |   |||||||||| || ||||||||| ||||||  |||| | ||||||     ||||||   |  ||||| ||    |||||||| || |||    | |||||||| || || |  |||||||| || ||||| || |||||||| |  ||||| ||||| |||||||| ||| ||  |  ||| ||| || ||||||||   ||||||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1524219683|gb|CP027739.1|</Hit_id>
+  <Hit_def>Pseudomonas chlororaphis subsp. piscium strain ToZa7 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP027739</Hit_accession>
+  <Hit_len>7015602</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.477</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>1.01471e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>1538359</Hsp_hit-from>
+      <Hsp_hit-to>1538754</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>399</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGGCCG---CGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCG-GCGTGCCGGCAAGCGCCCTATGCGGGAATG</Hsp_qseq>
+      <Hsp_hseq>ATGCTGACCGGCCTCAATCACCTGACCCTCGCCGTTACCGATCTGAACCG--CAGCCTGGGGTTCTACCGCGACCTGCTGGGCCTGCGCCTGGACGCCAGCTGGGACGGCGGCGCCTATCTGTCGCTGCCGGGCCTGTGGCTGTGCCTGTCGCTGGACTCGTCGCGCCGCCCGGCGGAAGTGCCGGACTACACCCATTACGCCTTCAGCATCGAGGCCGGGCATTTCGTGGCGTTCGCCCAACGCCTGCGTGCTGCCGGCGTGCGGGAGTGGCGCGACAACCGCAGTGAAGGGGCCTCGTTCTATTTTCTCGATCCAGACGGCCACCAACTGGAAGCCCATGTCGGCGATCTG-GCCTCGCGCTTGCGCGCCTGCCGGCAGCAGCCCTATGCCGGGATG</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||||||||||||||| || ||  |||| |||  |||  |||| | |  ||||||||||| || || ||| | |||||||| ||  ||||||||   |||||||||||    |||      ||||||||||||||||| | |||  ||  |  | ||  | |||  |   |||||||||| || ||||||||| ||||||  |||| | ||||||     ||||||   |  ||||| ||    |||||||| || |||    | |||||||| || || |  |||||||| || ||||| || |||||||| |  ||||| ||||| |||||||| ||| ||  |  ||| ||| || ||||||||   ||||||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1524212917|gb|CP027738.1|</Hit_id>
+  <Hit_def>Pseudomonas chlororaphis subsp. piscium strain ChPhzS135 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP027738</Hit_accession>
+  <Hit_len>6940016</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.477</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>1.01471e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>1540198</Hsp_hit-from>
+      <Hsp_hit-to>1540593</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>399</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGGCCG---CGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCG-GCGTGCCGGCAAGCGCCCTATGCGGGAATG</Hsp_qseq>
+      <Hsp_hseq>ATGCTGACCGGCCTCAATCACCTGACCCTCGCCGTTACCGATCTGAACCG--CAGCCTGGGGTTCTACCGCGACCTGCTGGGCCTGCGCCTGGACGCCAGCTGGGACGGCGGCGCCTATCTGTCGCTGCCGGGCCTGTGGCTGTGCCTGTCGCTGGACTCGTCGCGCCGCCCGGCGGAAGTGCCGGACTACACCCATTACGCCTTCAGCATCGAGGCCGGGCATTTCGTGGCGTTCGCCCAACGCCTGCGTGCTGCCGGCGTGCGGGAGTGGCGCGACAACCGCAGTGAAGGGGCCTCGTTCTATTTTCTCGATCCAGACGGCCACCAACTGGAAGCCCATGTCGGCGATCTG-GCCTCGCGCTTGCGCGCCTGCCGGCAGCAGCCCTATGCCGGGATG</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||||||||||||||| || ||  |||| |||  |||  |||| | |  ||||||||||| || || ||| | |||||||| ||  ||||||||   |||||||||||    |||      ||||||||||||||||| | |||  ||  |  | ||  | |||  |   |||||||||| || ||||||||| ||||||  |||| | ||||||     ||||||   |  ||||| ||    |||||||| || |||    | |||||||| || || |  |||||||| || ||||| || |||||||| |  ||||| ||||| |||||||| ||| ||  |  ||| ||| || ||||||||   ||||||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1524189796|gb|CP027737.1|</Hit_id>
+  <Hit_def>Pseudomonas chlororaphis subsp. piscium strain PCL1607 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP027737</Hit_accession>
+  <Hit_len>6913645</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.477</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>1.01471e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>1576115</Hsp_hit-from>
+      <Hsp_hit-to>1576510</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>399</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGGCCG---CGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCG-GCGTGCCGGCAAGCGCCCTATGCGGGAATG</Hsp_qseq>
+      <Hsp_hseq>ATGCTGACCGGCCTCAATCACCTGACCCTCGCCGTTACCGATCTGAACCG--CAGCCTGGGGTTCTACCGCGACCTGCTGGGCCTGCGCCTGGACGCCAGCTGGGACGGCGGCGCCTATCTGTCGCTGCCGGGCCTGTGGCTGTGCCTGTCGCTGGACTCGTCGCGCCGCCCGGCGGAAGTGCCGGACTACACCCATTACGCCTTCAGCATCGAGGCCGGGCATTTCGTGGCGTTCGCCCAACGCCTGCGTGCTGCCGGCGTGCGGGAGTGGCGCGACAACCGCAGTGAAGGGGCCTCGTTCTATTTTCTCGATCCAGACGGCCACCAACTGGAAGCCCATGTCGGCGATCTG-GCCTCGCGCTTGCGCGCCTGCCGGCAGCAGCCCTATGCCGGGATG</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||||||||||||||| || ||  |||| |||  |||  |||| | |  ||||||||||| || || ||| | |||||||| ||  ||||||||   |||||||||||    |||      ||||||||||||||||| | |||  ||  |  | ||  | |||  |   |||||||||| || ||||||||| ||||||  |||| | ||||||     ||||||   |  ||||| ||    |||||||| || |||    | |||||||| || || |  |||||||| || ||||| || |||||||| |  ||||| ||||| |||||||| ||| ||  |  ||| ||| || ||||||||   ||||||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1524171509|gb|CP027736.1|</Hit_id>
+  <Hit_def>Pseudomonas chlororaphis subsp. piscium strain PCL1391 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP027736</Hit_accession>
+  <Hit_len>6870622</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.477</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>1.01471e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>1517117</Hsp_hit-from>
+      <Hsp_hit-to>1517512</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>399</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGGCCG---CGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCG-GCGTGCCGGCAAGCGCCCTATGCGGGAATG</Hsp_qseq>
+      <Hsp_hseq>ATGCTGACCGGCCTCAATCACCTGACCCTCGCCGTTACCGATCTGAACCG--CAGCCTGGGGTTCTACCGCGACCTGCTGGGCCTGCGCCTGGACGCCAGCTGGGACGGCGGCGCCTATCTGTCGCTGCCGGGCCTGTGGCTGTGCCTGTCGCTGGACTCGTCGCGCCGCCCGGCGGAAGTGCCGGACTACACCCATTACGCCTTCAGCATCGAGGCCGGGCATTTCGTGGCGTTCGCCCAACGCCTGCGTGCTGCCGGCGTGCGGGAGTGGCGCGACAACCGCAGTGAAGGGGCCTCGTTCTATTTTCTCGATCCAGACGGCCACCAACTGGAAGCCCATGTCGGCGATCTG-GCCTCGCGCTTGCGCGCCTGCCGGCAGCAGCCCTATGCCGGGATG</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||||||||||||||| || ||  |||| |||  |||  |||| | |  ||||||||||| || || ||| | |||||||| ||  ||||||||   |||||||||||    |||      ||||||||||||||||| | |||  ||  |  | ||  | |||  |   |||||||||| || ||||||||| ||||||  |||| | ||||||     ||||||   |  ||||| ||    |||||||| || |||    | |||||||| || || |  |||||||| || ||||| || |||||||| |  ||||| ||||| |||||||| ||| ||  |  ||| ||| || ||||||||   ||||||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1524158869|gb|CP027735.1|</Hit_id>
+  <Hit_def>Pseudomonas chlororaphis subsp. piscium strain DTR133 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP027735</Hit_accession>
+  <Hit_len>7064618</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.477</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>1.01471e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>1573940</Hsp_hit-from>
+      <Hsp_hit-to>1574335</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>399</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGGCCG---CGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCG-GCGTGCCGGCAAGCGCCCTATGCGGGAATG</Hsp_qseq>
+      <Hsp_hseq>ATGCTGACCGGCCTCAATCACCTGACCCTCGCCGTTACCGATCTGAACCG--CAGCCTGGGGTTCTACCGCGACCTGCTGGGCCTGCGCCTGGACGCCAGCTGGGACGGCGGCGCCTATCTGTCGCTGCCGGGCCTGTGGCTGTGCCTGTCGCTGGACTCGTCGCGCCGCCCGGCGGAAGTGCCGGACTACACCCATTACGCCTTCAGCATCGAGGCCGGGCATTTCGTGGCGTTCGCCCAACGCCTGCGTGCTGCCGGCGTGCGGGAGTGGCGCGACAACCGCAGTGAAGGGGCCTCGTTCTATTTTCTCGATCCAGACGGCCACCAACTGGAAGCCCATGTCGGCGATCTG-GCCTCGCGCTTGCGCGCCTGCCGGCAGCAGCCCTATGCCGGGATG</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||||||||||||||| || ||  |||| |||  |||  |||| | |  ||||||||||| || || ||| | |||||||| ||  ||||||||   |||||||||||    |||      ||||||||||||||||| | |||  ||  |  | ||  | |||  |   |||||||||| || ||||||||| ||||||  |||| | ||||||     ||||||   |  ||||| ||    |||||||| || |||    | |||||||| || || |  |||||||| || ||||| || |||||||| |  ||||| ||||| |||||||| ||| ||  |  ||| ||| || ||||||||   ||||||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1524152030|gb|CP027710.1|</Hit_id>
+  <Hit_def>Pseudomonas chlororaphis subsp. piscium strain SLPH10 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP027710</Hit_accession>
+  <Hit_len>7227643</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.477</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>1.01471e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>1537001</Hsp_hit-from>
+      <Hsp_hit-to>1537396</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>399</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGGCCG---CGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCG-GCGTGCCGGCAAGCGCCCTATGCGGGAATG</Hsp_qseq>
+      <Hsp_hseq>ATGCTGACCGGCCTCAATCACCTGACCCTCGCCGTTACCGATCTGAACCG--CAGCCTGGGGTTCTACCGCGACCTGCTGGGCCTGCGCCTGGACGCCAGCTGGGACGGCGGCGCCTATCTGTCGCTGCCGGGCCTGTGGCTGTGCCTGTCGCTGGACTCGTCGCGCCGCCCGGCGGAAGTGCCGGACTACACCCATTACGCCTTCAGCATCGAGGCCGGGCATTTCGTGGCGTTCGCCCAACGCCTGCGTGCTGCCGGCGTGCGGGAGTGGCGCGACAACCGCAGTGAAGGGGCCTCGTTCTATTTTCTCGATCCAGACGGCCACCAACTGGAAGCCCATGTCGGCGATCTG-GCCTCGCGCTTGCGCGCCTGCCGGCAGCAGCCCTATGCCGGGATG</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||||||||||||||| || ||  |||| |||  |||  |||| | |  ||||||||||| || || ||| | |||||||| ||  ||||||||   |||||||||||    |||      ||||||||||||||||| | |||  ||  |  | ||  | |||  |   |||||||||| || ||||||||| ||||||  |||| | ||||||     ||||||   |  ||||| ||    |||||||| || |||    | |||||||| || || |  |||||||| || ||||| || |||||||| |  ||||| ||||| |||||||| ||| ||  |  ||| ||| || ||||||||   ||||||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|2111793786|gb|CP083442.1|</Hit_id>
+  <Hit_def>Pseudomonas chlororaphis strain L5734 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP083442</Hit_accession>
+  <Hit_len>6880469</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.477</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>1.01471e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>1977537</Hsp_hit-from>
+      <Hsp_hit-to>1977142</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>399</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGGCCG---CGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCG-GCGTGCCGGCAAGCGCCCTATGCGGGAATG</Hsp_qseq>
+      <Hsp_hseq>ATGCTGACCGGCCTCAACCACCTGACCCTCGCCGTTACCGATCTGAACCG--CAGCCTGGGGTTCTACCGCGACCTGCTGGGCCTGCGCCTGGACGCCAGCTGGGACGGCGGCGCCTATCTGTCGCTGCCGGGCCTGTGGCTGTGCCTGTCGCTGGACTCGTCGCGCCGCCCGGCGGAAGTGCCGGACTACACCCACTACGCCTTCAGCATCGAGGCCGGGCATTTCGTGGCGTTCGCCCAACGCCTGCGTGCTGCCGGCGTGCGGGAGTGGCGTGACAACCGCAGTGAAGGGGCCTCGTTCTATTTTCTCGACCCTGACGGCCACCAGCTGGAAGCCCATGTCGGTGATCTG-GCCTCGCGCTTGCGCGCCTGCCGGCAGCAGCCCTATGCCGGGATG</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||| ||||||||||| || ||  |||| |||  |||  |||| | |  ||||||||||| || || ||| | |||||||| ||  ||||||||   |||||||||||    |||      ||||||||||||||||| | |||  ||  |  | ||  | |||  |   |||||||||| |||||||||||| ||||||  |||| | ||||||     ||||||   |  ||||| ||    |||||||| || |||    | |||||||| || || |  |||||||| || |||||||| |||||||| |  ||||| ||||| ||||| || ||| ||  |  ||| ||| || ||||||||   ||||||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|2025286009|gb|CP054868.1|</Hit_id>
+  <Hit_def>Pseudomonas chlororaphis strain PCLAR04 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP054868</Hit_accession>
+  <Hit_len>7305652</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.477</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>1.01471e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>1894644</Hsp_hit-from>
+      <Hsp_hit-to>1894249</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>399</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGGCCG---CGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCG-GCGTGCCGGCAAGCGCCCTATGCGGGAATG</Hsp_qseq>
+      <Hsp_hseq>ATGCTGACCGGCCTCAATCACCTGACCCTCGCCGTTACCGATCTGAACCG--CAGCCTGGGGTTCTACCGCGACCTGCTGGGCCTGCGCCTGGACGCCAGCTGGGACGGCGGCGCCTATCTGTCGCTGCCGGGCCTGTGGCTGTGCCTGTCGCTGGACTCGTCGCGCCGCCCGGCGGAAGTGCCGGACTACACCCATTACGCCTTCAGCATCGAGGCCGGGCATTTCGTGGCGTTCGCCCAACGCCTGCGTGCTGCCGGCGTGCGGGAGTGGCGCGACAACCGCAGTGAAGGGGCCTCGTTCTATTTTCTCGATCCAGACGGCCACCAACTGGAAGCCCATGTCGGCGATCTG-GCCTCGCGCTTGCGCGCCTGCCGGCAGCAGCCCTATGCCGGGATG</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||||||||||||||| || ||  |||| |||  |||  |||| | |  ||||||||||| || || ||| | |||||||| ||  ||||||||   |||||||||||    |||      ||||||||||||||||| | |||  ||  |  | ||  | |||  |   |||||||||| || ||||||||| ||||||  |||| | ||||||     ||||||   |  ||||| ||    |||||||| || |||    | |||||||| || || |  |||||||| || ||||| || |||||||| |  ||||| ||||| |||||||| ||| ||  |  ||| ||| || ||||||||   ||||||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|2025267856|gb|CP054865.1|</Hit_id>
+  <Hit_def>Pseudomonas chlororaphis strain PCLSL01 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP054865</Hit_accession>
+  <Hit_len>6989222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.477</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>1.01471e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>1521104</Hsp_hit-from>
+      <Hsp_hit-to>1521499</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>399</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCGGGCCGGCCG---CGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCG-GCGTGCCGGCAAGCGCCCTATGCGGGAATG</Hsp_qseq>
+      <Hsp_hseq>ATGCTGACCGGCCTCAATCACCTGACCCTCGCCGTTACCGATCTGAACCG--CAGCCTGGGGTTCTACCGCGACCTGCTGGGCCTGCGCCTGGACGCCAGCTGGGACGGCGGCGCCTATCTGTCGCTGCCGGGCCTGTGGCTGTGCCTGTCGCTGGACTCGTCGCGCCGCCCGGCGGAAGTGCCGGACTACACCCATTACGCCTTCAGCATCGAGGCCGGGCATTTCGTGGCGTTCGCCCAACGCCTGCGTGCTGCCGGCGTGCGGGAGTGGCGCGACAACCGCAGTGAAGGGGCCTCGTTCTATTTTCTCGATCCAGACGGCCACCAACTGGAAGCCCATGTCGGCGATCTG-GCCTCGCGCTTGCGCGCCTGCCGGCAGCAGCCCTATGCCGGGATG</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||||||||||||||| || ||  |||| |||  |||  |||| | |  ||||||||||| || || ||| | |||||||| ||  ||||||||   |||||||||||    |||      ||||||||||||||||| | |||  ||  |  | ||  | |||  |   |||||||||| || ||||||||| ||||||  |||| | ||||||     ||||||   |  ||||| ||    |||||||| || |||    | |||||||| || || |  |||||||| || ||||| || |||||||| |  ||||| ||||| |||||||| ||| ||  |  ||| ||| || ||||||||   ||||||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1034258716|gb|CP011566.1|</Hit_id>
+  <Hit_def>Pseudomonas sp. DR 5-09, complete genome</Hit_def>
+  <Hit_accession>CP011566</Hit_accession>
+  <Hit_len>6427864</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.575</Hsp_bit-score>
+      <Hsp_score>231</Hsp_score>
+      <Hsp_evalue>3.5417e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>1495111</Hsp_hit-from>
+      <Hsp_hit-to>1495511</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>292</Hsp_identity>
+      <Hsp_positive>292</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>405</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCT--CGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGG---CGGGCCGGCCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCGGCGTGCCGGCAAGCGCCCTATGCGGGAATGCGTTT</Hsp_qseq>
+      <Hsp_hseq>ATGCTCACCGGCCTCAATCACCTGACCCTCGCTGTCACCGACCTGGACCG--CAGCCTCGCGTTCTACCGCGACATCCTGAAGCTGCGAGTCGAGGCCACCTGGGACGCCGGTGCCTATCTGTCGCTCCCGGGCC--TGTGGTTGTGCCTGTCCTTCGATCCGAAGCGCCATCCCGAACCCGCCGCCGACTATACCCACTACGCCTTCAGCATTGGCGCTGAAGATTTTCCGCTGTTCGTGCAACAGCTTCGCGCCGCCAACGTGCAGGAATGGCGCGACAACCGCAGCGAAGGCGCGTCGTTCTACTTCCTCGACCCGGACGGGCACAAACTCGAAGCCCACGTCGGCGACCTGGCCTCGCGACTGGCCGCGTGTCGGCAAAAGCCCTATGCGGGCATGGGTTT</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||||||||||||||| || ||| ||||||||  |||  |||| |||| |||||||||||  | ||     | ||  | || ||   |||||||   || ||||||||  ||  |  ||  |  ||||| |||||||||||   || ||| ||  |     ||  || ||||| ||||| || |||||||||||| |||| | ||| |  |||||  | |  ||||     ||||| |||||      |||||  ||||||    | ||||||||||| ||||  |||||||||||||||||||||||||| ||    || || ||||||||||||||||||  |   || || || ||||| ||||||  |||||||||||| ||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|2045501514|gb|CP075566.1|</Hit_id>
+  <Hit_def>Pseudomonas fluorescens strain G20-18 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP075566</Hit_accession>
+  <Hit_len>6481491</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.575</Hsp_bit-score>
+      <Hsp_score>231</Hsp_score>
+      <Hsp_evalue>3.5417e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>774692</Hsp_hit-from>
+      <Hsp_hit-to>775087</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>291</Hsp_identity>
+      <Hsp_positive>291</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>400</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCT-CGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGT---ACGGCGGGCCGGCCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCT-GCGCAGCCGGCTCGCGGCGTGCCGGCAAGCGCCCTATGCGGGAATG</Hsp_qseq>
+      <Hsp_hseq>ATGCTAACCGGCCTCAATCACCTGACCCTCGCCGTCACCGACCTGAACCG--CAGCGTTGCGTTCTATCACGACCTCCTGCAGCTTCAGC-TCGAAGCCTCGTGGGACAGCGGCGCCTACCTCTCGCTGCCCGGGCTGTGGCTATGCCTTTCCCTCGATCCCCTGCGCAACGCCGAGTCCGCCGCCGATTACACCCATTACGCCTTCAGCATCAGCGCCCCCGACTTCCCTCCATTCGTCGAACGCCTGCGAGCCGCCAACGTCAGGGAATGGCGCGACAACCGCAGCGAAGGCGCGTCGTTCTACTTCCTCGACCCGGACGGCCACAAGCTCGAAGCCCATGTCGGCGATCTGGCGTCG-CGGCTGGCGGCCTGTCGGCAGCGGCCTTATGCGGGAATG</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||||||||||||||| || ||| ||||||||  |||  |||| | || ||||| | ||| || || | ||||  || | |||||    ||||||   |||||||| |||   |||     ||||||||| ||||| ||||  || || | |    ||| || | | ||||| || ||||| || ||||||||| |||||  |||| | || ||| | |  |||| ||  |  ||||| ||      |||  | ||||||    | ||||||||||| ||||  |||||||||||||||||||||||||||||    || || ||||| |||||||| || |||  | ||||| ||||| || |||||   ||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1524245948|gb|CP027713.1|</Hit_id>
+  <Hit_def>Pseudomonas chlororaphis strain TAMOak81 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP027713</Hit_accession>
+  <Hit_len>6711360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>4.31467e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>1537260</Hsp_hit-from>
+      <Hsp_hit-to>1537655</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>291</Hsp_identity>
+      <Hsp_positive>291</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>400</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGGCG-GGCCG--GCCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGC-TTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCG-GCGTGCCGGCAAGCGCCCTATGCGGGAATG</Hsp_qseq>
+      <Hsp_hseq>ATGCTGACCGGCCTCAACCACCTGACCCTCGCTATTACCGATCTCAACCG--CAGTCTGGGGTTCTACCGTGACTTGCTGGGCTTGCGCCTGGACGCCAGCTGGGACAGCGGCGCCTACCTGTCGCTGCCGGGCCTGTGGTTGTGCCTGTCGCTGGACCCGTCGCGCCGCTTGGCCGAAGTGCCGGACTACACCCACTATGCCTTCGGCATCGAGGCCGGGCATTTC-CTGGCGTTCGTCCAGCGCCTGCGGGCGGCTGGCGTGCGGGAGTGGCGCGACAACCGCAGCGAAGGCGCCTCGTTCTATTTCCTCGACCCCGACGGCCACCAGCTCGAAGCCCATGTCGGCGATCTG-GCCTCGCGCTTGCGCGCCTGTCGGCAGCAGCCCTATGCCGGGATG</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||| ||||||||||| ||  |  |||| ||   |||  |||  | |  |||||||| ||  | || ||||| |||||||| ||  ||||||||   |||||||| ||    |||      |||||| |||||||||| | ||| |||  |  | ||  |||||  |   |||||||||| ||||| |||||||||||||  |||| | ||||| |  || |||| |  ||  ||||| |||  ||||||||| || |||    | ||||||||||| ||||  |||||||| ||||||||||| |||||||| |  || || ||||| |||||||| ||| ||  |  ||| ||| || || |||||   ||||||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|2013117350|gb|CP071797.1|</Hit_id>
+  <Hit_def>Pseudomonas fluorescens strain YK-310 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP071797</Hit_accession>
+  <Hit_len>6498941</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>4.31467e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>1731264</Hsp_hit-from>
+      <Hsp_hit-to>1731664</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>291</Hsp_identity>
+      <Hsp_positive>291</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>405</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTA--TCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTACGG---CGGGCCGGCCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCGGCGTGCCGGCAAGCGCCCTATGCGGGAATGCGTTT</Hsp_qseq>
+      <Hsp_hseq>ATGCTCACCGGCCTCAACCACCTGACCCTCGCCGTCACCGATCTGGACCG--CAGCCTCGCGTTCTACCGTGACGTGCTGAAGCTGCGAGTCGAGGCCACCTGGGACGCAGGTGCCTACCTGTCGCTCCCGG--GCCTGTGGTTGTGCCTGTCCCTTGACCCGAAGCGCAGTCCCGAGCCCGCCGCCGACTACACCCACTACGCCTTCAGCCTCGGCGCGGCGGATTTCCCGCTGTTCGTGCAACAGCTTCGCGCCGCCAACGTGCAGGAATGGCGCGACAACCGCAGCGAAGGTGCGTCGTTCTACTTCCTTGACCCGGACGGGCACAAACTCGAAGCTCACGTCGGCGATCTGGCCTCGCGACTGGCCGCGTGTCGGCAAAAGCCCTACGCGGGGATGCGTTT</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||| ||||||||||| || ||| |||| |||  |||  |||| |||| |||||||| ||  | ||     | ||  | || ||   |||||||   || |||||  | |||  |  ||    |||||| ||||||||||||  || ||| ||  | |   || ||| ||||| |||||||| |||||||||||| || ||| ||| ||||||||| | |  ||||     ||||| |||||      |||||  ||||||    | ||||||||||| || |  |||||||||||||| ||||||||||| ||    || || || ||||||||||| |||  |   || || || ||||| ||||||  |||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1790895502|gb|CP019399.1|</Hit_id>
+  <Hit_def>Pseudomonas chlororaphis strain R47 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP019399</Hit_accession>
+  <Hit_len>7197297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.165</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>1.50597e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>1543130</Hsp_hit-from>
+      <Hsp_hit-to>1543525</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>401</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCG-----CAGTACGGCGGGCCGGCCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCG-GCGTGCCGGCAAGCGCCCTATGCGGGAATG</Hsp_qseq>
+      <Hsp_hseq>ATGCTGACCGGCCTCAACCACCTGACCCTCGCCGTTACCGATCTGAACCG--CAGCCTGGGGTTTTACCGCGACCTGCTGGGCCTGCGCCTGGATGCCAGCTGGGACAGCGGCGCCTATCTGTCGCTGCCGGGCCTGTGGTTGTGCCTGTCGCTGGACTCGTCGCGCCGTTCGGCGGAGGTGCCG--GACTACACCCATTACGCCTTCAGCATCGAGGCCGGGCATTTCGTGGCGTTCGTCCAGCGCCTGCGTGCTGCCGGTGTGCGGGAGTGGCGCGACAACCGCAGCGAAGGCGCCTCGTTCTATTTCCTCGACCCCGACGGCCACCAGCTGGAAGCCCATGTCGGCGATCTG-GCCTCGCGCTTGCGCGCCTGTCGGCAGCAACCCTATGCCGGGATG</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||| ||||||||||| || ||  |||| |||  |||  |||| | |  || |||||||| || || ||| | |||||||| ||  ||||||||   |||||||||||    |||      |||||| |||||||||| | |||  ||     | || ||||||    ||||  |||||||| || ||||||||| ||||||  |||| | ||||||     |||| |  ||  ||||| ||    || ||||| || |||    | ||||||||||| ||||  |||||||| ||||||||||| |||||||| |  ||||| ||||| |||||||| ||| ||  |  ||| ||| || || |||||    |||||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1524372548|gb|CP027749.1|</Hit_id>
+  <Hit_def>Pseudomonas chlororaphis subsp. aureofaciens strain ChPhzTR39 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP027749</Hit_accession>
+  <Hit_len>7046099</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.165</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>1.50597e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>1534797</Hsp_hit-from>
+      <Hsp_hit-to>1535192</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>401</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCG-----CAGTACGGCGGGCCGGCCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCG-GCGTGCCGGCAAGCGCCCTATGCGGGAATG</Hsp_qseq>
+      <Hsp_hseq>ATGCTGACCGGCCTCAACCACCTGACCCTCGCCGTTACCGATCTGAACCG--CAGCCTGGGGTTTTACCGCGACCTGCTGGGCCTGCGCCTGGATGCCAGCTGGGACAGCGGCGCCTATCTGTCGCTGCCGGGCCTGTGGTTGTGCCTGTCGCTGGACTCGTCGCGCCGTTCGGCGGAGGTGCCG--GACTACACCCATTACGCCTTCAGCATCGAGGCCGGGCATTTCGTGGCGTTCGTCCAGCGCCTGCGTGCTGCCGGTGTGCGGGAGTGGCGCGACAACCGCAGCGAAGGCGCCTCGTTCTATTTCCTCGACCCCGACGGCCACCAGCTGGAAGCCCATGTCGGCGATCTG-GCCTCGCGCTTGCGCGCCTGTCGGCAGCAACCCTATGCCGGGATG</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||| ||||||||||| || ||  |||| |||  |||  |||| | |  || |||||||| || || ||| | |||||||| ||  ||||||||   |||||||||||    |||      |||||| |||||||||| | |||  ||     | || ||||||    ||||  |||||||| || ||||||||| ||||||  |||| | ||||||     |||| |  ||  ||||| ||    || ||||| || |||    | ||||||||||| ||||  |||||||| ||||||||||| |||||||| |  ||||| ||||| |||||||| ||| ||  |  ||| ||| || || |||||    |||||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|2164176854|gb|CP088968.1|</Hit_id>
+  <Hit_def>Janthinobacterium sp. PLB04 chromosome</Hit_def>
+  <Hit_accession>CP088968</Hit_accession>
+  <Hit_len>6414138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.165</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>1.50597e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>4150167</Hsp_hit-from>
+      <Hsp_hit-to>4150565</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>292</Hsp_identity>
+      <Hsp_positive>292</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>403</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTGCCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTT-CGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCT--CGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTAC---GGCGGGCCGGCCG---CGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGC-GACCTGCGCAGCCGGCTCGCGGCGTGCCGGCAAGCGCCCTATGCGGGAATG</Hsp_qseq>
+      <Hsp_hseq>ATGTTGACCGGCCTGAACCACCTCACCCTGTCCGTGCGCGACCTGGCGCGCAGCGTGGCCTTTTACCGCAA-CACCTTGGGTCTGCGCCTGCATGCGCGCTGGGACAGGGGCGCGTATCTGTCGGCCGGGGATT--TGTGGCTGTGCCTGTCGCTGGATGGTCAGGACACGGCCGCGCTGGCCAGCCCGGCCTATACGCACTATGCGTTTTCCATCGAGCCCACCGACTTCGCTCCGTTTACCGCCCGCCTGCGCGCCGCCGGCGTGCCCGAATGGCAGCAAAACCGCAGCGCCGGCGATTCCCTGTATTTTCTCGACCCGGACGGCCACCGGCTGGAAGCCCATGCTGGCAGCCTTGCGCAG-CGGCTGGCGGCCTGCCACGCAGCGCCGTATCAGGGCATG</Hsp_hseq>
+      <Hsp_midline>||| | ||||| || || ||||| |||||| | ||   ||||||| ||  |||| | ||||| |||||| | |  || || | | |||||| | ||||||||||||  |||||| |||||  ||  | ||| |   |||||||||||||||| | |||    ||| ||   | || || ||||    ||| ||| |||||||| || ||   |||||   || | || ||||| |  ||  |||| |  ||||||||    ||||||| ||||||| |||| ||||||||||  ||||||||  | || || ||||||||||||||||| || ||||| ||||| |  ||| | | ||||||| ||||| ||||| ||||    |||||| |||  ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|2006492349|gb|CP071520.1|</Hit_id>
+  <Hit_def>Janthinobacterium sp. PLB02 chromosome</Hit_def>
+  <Hit_accession>CP071520</Hit_accession>
+  <Hit_len>6417505</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.165</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>1.50597e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>4153642</Hsp_hit-from>
+      <Hsp_hit-to>4154040</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>292</Hsp_identity>
+      <Hsp_positive>292</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>403</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTGCCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTT-CGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCT--CGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCGCAGTAC---GGCGGGCCGGCCG---CGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGC-GACCTGCGCAGCCGGCTCGCGGCGTGCCGGCAAGCGCCCTATGCGGGAATG</Hsp_qseq>
+      <Hsp_hseq>ATGTTGACCGGCCTGAACCACCTCACCCTGTCCGTGCGCGACCTGGCGCGCAGCGTGGCCTTTTACCGCAA-CACCTTGGGTCTGCGCCTGCATGCGCGCTGGGACAGGGGCGCGTATCTGTCGGCCGGGGATT--TGTGGCTGTGCCTGTCGCTGGATGGTCAGGACACGGCCGCGCTGGCCAGCCCGGCCTATACGCACTATGCGTTTTCCATCGAGCCCACCGACTTCGCTCCGTTTACCGCCCGCCTGCGCGCCGCCGGCGTGCCCGAATGGCAGCAAAACCGCAGCGCCGGCGATTCCCTGTATTTTCTCGACCCGGACGGCCACCGGCTGGAAGCCCATGCTGGCAGCCTTGCGCAG-CGGCTGGCGGCCTGCCACGCAGCGCCGTATCAGGGCATG</Hsp_hseq>
+      <Hsp_midline>||| | ||||| || || ||||| |||||| | ||   ||||||| ||  |||| | ||||| |||||| | |  || || | | |||||| | ||||||||||||  |||||| |||||  ||  | ||| |   |||||||||||||||| | |||    ||| ||   | || || ||||    ||| ||| |||||||| || ||   |||||   || | || ||||| |  ||  |||| |  ||||||||    ||||||| ||||||| |||| ||||||||||  ||||||||  | || || ||||||||||||||||| || ||||| ||||| |  ||| | | ||||||| ||||| ||||| ||||    |||||| |||  ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1968314860|gb|CP061943.1|</Hit_id>
+  <Hit_def>Pseudomonas sp. SK3(2021) chromosome, complete genome</Hit_def>
+  <Hit_accession>CP061943</Hit_accession>
+  <Hit_len>6488895</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.165</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>1.50597e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>1723223</Hsp_hit-from>
+      <Hsp_hit-to>1723618</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>289</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>401</Hsp_align-len>
+      <Hsp_qseq>ATGCTTACCGGTCTCAATCACCTGACCCTGGCGGTCGCCGACCTG--CCGGCCAGCATCGCCTTCTACCGCGATCTTCTCGGCTTTCGCCTGGAAGCGCGCTGGGACCAGGGCGCCTATCTCGAACTGGGTTCGCTGTGGCTGTGCCTGTCCCGGGAGCCG-----CAGTACGGCGGGCCGGCCGCGGACTACACGCACTACGCCTTCGGCATCGCCGCCGCGGATTTCGCCCGCTTCGCCGCGCAGCTGCGCGCGCATGGCGTGCGCGAATGGAAGCAGAACCGCAGCGAGGGCGATTCGTTCTACTTCCTCGACCCGGACGGCCATCGCCTGGAGGCCCACGTCGGCGACCTGCGCAGCCGGCTCGCG-GCGTGCCGGCAAGCGCCCTATGCGGGAATG</Hsp_qseq>
+      <Hsp_hseq>ATGCTGACCGGCCTCAACCACCTGACCCTCGCCGTGACCGATCTGAACCG--CAGCCTGGGGTTTTATCGCGACCTGCTGGGCCTGCGCCTGGATGCCAGCTGGGACAGCGGCGCCTATCTGTCGCTGCCGGGCCTGTGGTTGTGCCTGTCGCTGGACTCGTCGCGCCGTTCGGCGGA--GGTACCGGACTACACCCATTACGCCTTCAGCATCGAGGCCGGGCATTTCGTGGCGTTCGTCCAGCGCCTGCGTGCTGCTGGCGTGCGGGAGTGGCGCGACAACCGCAGCGAAGGCGCCTCGTTCTATTTTCTCGACCCCGACGGCCACCTGCTGGAAGCCCATGTCGGCGATCTG-GCCTCGCGCTTGCGCGCCTGCCGGCGGCAACCCTATGCCGGGATG</Hsp_hseq>
+      <Hsp_midline>||||| ||||| ||||| ||||||||||| || ||  |||| |||  |||  |||| | |  || || ||||| || || ||| | |||||||| ||  ||||||||   |||||||||||    |||      |||||| |||||||||| | |||  ||     | || ||||||   ||   |||||||||| || ||||||||| ||||||  |||| | ||||||     |||| |  ||  ||||| ||   ||||||||| || |||    | ||||||||||| ||||  |||||||| || |||||||| |||||||| |  ||||| ||||| |||||||| ||| ||  |  ||| ||| || |||||||     |||||||| || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>77931247</Statistics_db-num>
+      <Statistics_db-len>633017889268</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

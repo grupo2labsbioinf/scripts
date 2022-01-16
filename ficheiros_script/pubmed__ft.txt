@@ -1,0 +1,60 @@
+1:
+Título: Molecular detection of gyrA and mexA genes in Pseudomonas aeruginosa.
+Autores: Abed WH, Kareem SM
+2:
+Título: Effect of single-dose carbapenem exposure on transcriptional expression of bla<sub>NDM-1</sub> and mexA in Pseudomonas aeruginosa.
+Autores: Choudhury D, Paul D, Ghosh AS, Das Talukdar A, Dutta Choudhury M, Maurya AP, Dhar Chanda D, Chakravarty A, Bhattacharjee A
+3:
+Título: Evaluation of efflux pump activity and biofilm formation in multidrug resistant clinical isolates of Pseudomonas aeruginosa isolated from a Federal Medical Center in Nigeria.
+Autores: Ugwuanyi FC, Ajayi A, Ojo DA, Adeleye AI, Smith SI
+4:
+Título: Changes in the resistance and epidemiological characteristics of Pseudomonas aeruginosa during a ten-year period.
+Autores: Feng W, Huang Q, Wang Y, Yuan Q, Li X, Xia P, Sun F
+5:
+Título: MexAB-OprM Efflux Pump Interaction with the Peptidoglycan of <i>Escherichia coli</i> and <i>Pseudomonas aeruginosa</i>.
+Autores: Ma M, Lustig M, Salem M, Mengin-Lecreulx D, Phan G, Broutin I
+6:
+Título: Expression of the mexA Gene Requires the DNA Helicase RecG in Pseudomonas aeruginosa PAO1.
+Autores: Heo A, Park W
+7:
+Título: Combination of MexAB-OprM overexpression and mutations in efflux regulators, PBPs and chaperone proteins is responsible for ceftazidime/avibactam resistance in Pseudomonas aeruginosa clinical isolates from US hospitals.
+Autores: Castanheira M, Doyle TB, Smith CJ, Mendes RE, Sader HS
+8:
+Título: An α-Lipoic acid derivative, and anti-ROS agent, prevents the acquisition of multi-drug resistance in clinical isolates of Pseudomonas aeruginosa.
+Autores: Hayakawa S, Kawamura M, Sato T, Hirano T, Kikuchi T, Watanabe A, Fujimura S
+9:
+Título: siRNA-mediated gene silencing of MexB from the MexA-MexB-OprM efflux pump in Pseudomonas aeruginosa.
+Autores: Gong FY, Zhang DY, Zhang JG, Wang LL, Zhan WL, Qi JY, Song JX
+10:
+Título: Role of MexA-MexB-OprM efflux pump system in chronic Pseudomonas aeruginosa pulmonary infection in mice.
+Autores: Gong F, Zhan W, Wang L, Song Y, Xing M, Song J
+11:
+Título: Tat pathway-mediated translocation of the sec pathway substrate protein MexA, an inner membrane component of the MexAB-OprM xenobiotic extrusion pump in Pseudomonas aeruginosa.
+Autores: Yoneyama H, Akiba K, Hori H, Ando T, Nakae T
+12:
+Título: Rapid evolution and host immunity drive the rise and fall of carbapenem resistance during an acute Pseudomonas aeruginosa infection.
+Autores: Wheatley R, Diaz Caballero J, Kapel N, de Winter FHR, Jangir P, Quinn A, Del Barrio-Tofiño E, López-Causapé C, Hedge J, Torrens G, Van der Schalk T, Xavier BB, Fernández-Cuenca F, Arenzana A, Recanatini C, Timbermont L, Sifakis F, Ruzin A, Ali O, Lammens C, Goossens H, Kluytmans J, Kumar-Singh S, Oliver A, Malhotra-Kumar S, MacLean C
+13:
+Título: Transcriptional Analysis of MexAB-OprM Efflux Pumps System of Pseudomonas aeruginosa and Its Role in Carbapenem Resistance in a Tertiary Referral Hospital in India.
+Autores: Choudhury D, Das Talukdar A, Dutta Choudhury M, Maurya AP, Paul D, Dhar Chanda D, Chakravorty A, Bhattacharjee A
+14:
+Título: Sulfane Sulfur is an intrinsic signal activating MexR-regulated antibiotic resistance in Pseudomonas aeruginosa.
+Autores: Xuan G, Lü C, Xu H, Chen Z, Li K, Liu H, Liu H, Xia Y, Xun L
+15:
+Título: The Response of <i>Pseudomonas aeruginosa</i> PAO1 to UV-activated Titanium Dioxide/Silica Nanotubes.
+Autores: Augustyniak A, Cendrowski K, Grygorcewicz B, Jabłońska J, Nawrotek P, Trukawka M, Mijowska E, Popowska M
+16:
+Título: Penicillin-binding protein 3 is a common adaptive target among Pseudomonas aeruginosa isolates from adult cystic fibrosis patients treated with β-lactams.
+Autores: Clark ST, Sinha U, Zhang Y, Wang PW, Donaldson SL, Coburn B, Waters VJ, Yau YCW, Tullis DE, Guttman DS, Hwang DM
+17:
+Título: Loss of activity of ceftazidime-avibactam due to MexAB-OprM efflux and overproduction of AmpC cephalosporinase in Pseudomonas aeruginosa isolated from patients suffering from cystic fibrosis.
+Autores: Chalhoub H, Sáenz Y, Nichols WW, Tulkens PM, Van Bambeke F
+18:
+Título: Comparative transcription analysis of resistant mutants against four different antibiotics in Pseudomonas aeruginosa.
+Autores: Zhang W, Yuan Y, Li S, Deng B, Zhang J, Li Z
+19:
+Título: Two Regulators, PA3898 and PA2100, Modulate the Pseudomonas aeruginosa Multidrug Resistance MexAB-OprM and EmrAB Efflux Pumps and Biofilm Formation.
+Autores: Heacock-Kang Y, Sun Z, Zarzycki-Siek J, Poonsuk K, McMillan IA, Chuanchuen R, Hoang TT
+20:
+Título: Expression of ampC, oprD, and mexA, outer membrane protein analysis and carbapenemases in multidrug resistant clinical isolates of Pseudomonas aeruginosa from Egypt.
+Autores: El-Mahdy TS
